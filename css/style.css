@@ -116,8 +116,18 @@ section .row{
 
 footer .container{
     padding: 20px 0;
+    max-width: 990px;
 }
 
 footer .menu{
     font-size: small;
+}
+
+.hide{
+    opacity: 0;
+    position: absolute;
+}
+
+.col-33:hover .hide{
+    opacity: 1;
 }
