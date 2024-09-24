@@ -30,14 +30,6 @@ html{
     position: relative;
 }
 
-.discount{
-    background-color: #FF0000;
-    position: absolute;
-    bottom: 10%;
-    font-weight: bold;
-    color: white;
-}
-
 .new-price{
     font-weight: bold;
     color: red;
@@ -45,4 +37,21 @@ html{
 
 .old-price{
     text-decoration: line-through;
+}
+
+.tags{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    font-weight: bold;
+}
+
+.tags .discount{
+    background-color: #FF0000;
+}
+
+.tags .eco{
+    background-color: #008000;
 }
