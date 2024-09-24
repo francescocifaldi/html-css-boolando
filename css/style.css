@@ -136,3 +136,7 @@ footer .menu{
 .col-33:hover .hide{
     opacity: 1;
 }
+
+.symbol:hover{
+    color: red;
+}
