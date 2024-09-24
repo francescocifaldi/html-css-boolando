@@ -16,6 +16,7 @@
 
 .col-33{
     width:calc(100%/3);
+    padding: 0 5px;;
 }
 
 html{
@@ -32,6 +33,7 @@ html{
 
 .description{
     padding-bottom: 20px;
+    font-size: small;
 }
 
 .new-price{
