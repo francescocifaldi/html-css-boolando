@@ -4,6 +4,19 @@
     padding: 0;
 }
 
+html{
+    font-family: "Ubuntu", sans-serif;
+}
+
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+ul, ol{
+    list-style: none;
+}
+
 .container{
     max-width: 1000px;
     margin: 0 auto;
@@ -17,10 +30,6 @@
 .col-33{
     width:calc(100%/3);
     padding: 0 5px;
-}
-
-html{
-    font-family: "Ubuntu", sans-serif;
 }
 
 .debug{
@@ -75,10 +84,6 @@ html{
     font-size: x-large;
 }
 
-ul, ol{
-    list-style: none;
-}
-
 .menu{
     display: flex;
     gap: 10px;
@@ -98,4 +103,21 @@ ul, ol{
     font-weight: bold;
     color: white;
     padding: 10px 0;
+}
+
+.main-footer{
+    background-color: #1A1A1A;
+    color: white;
+}
+
+section .row{
+    padding-top: 50px;
+}
+
+footer .container{
+    padding: 20px 0;
+}
+
+footer .menu{
+    font-size: small;
 }
