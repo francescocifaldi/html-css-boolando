@@ -16,7 +16,7 @@
 
 .col-33{
     width:calc(100%/3);
-    padding: 0 5px;;
+    padding: 0 5px;
 }
 
 html{
@@ -73,4 +73,29 @@ html{
     background-color: white;
     padding: 10px;
     font-size: x-large;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.main-header{
+    background-color: #FF6900;
+}
+
+.main-header .container{
+    max-width: 990px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 0;
 }
