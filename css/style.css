@@ -18,6 +18,31 @@
     width:calc(100%/3);
 }
 
+html{
+    font-family: "Ubuntu", sans-serif;
+}
+
 .debug{
     border: 2px dotted red;
+}
+
+.photo{
+    position: relative;
+}
+
+.discount{
+    background-color: #FF0000;
+    position: absolute;
+    bottom: 10%;
+    font-weight: bold;
+    color: white;
+}
+
+.new-price{
+    font-weight: bold;
+    color: red;
+}
+
+.old-price{
+    text-decoration: line-through;
 }
